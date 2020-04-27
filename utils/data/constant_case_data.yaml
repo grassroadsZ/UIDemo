@@ -1,0 +1,17 @@
+Login:
+  - username: testdata01
+    password: Testdata01
+    expect: testdata01
+  - username: xxxxxxxx
+    password: xxxxx
+    expect: 你输入的用户名或密码不正确，请重新输入
+  - username: admin
+    password: 123
+    expect: 你输入的用户名密码不正确，请重新输入
+
+
+
+
+
+
+

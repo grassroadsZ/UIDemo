@@ -1,0 +1,59 @@
+AppManage:
+  create_app:
+    app_name: UIApp0413151445
+    expect:
+      - 创建应用成功
+  delete_app:
+    app_name: UIAppJohnEstrada
+    expect_1:
+      - 暂无数据
+    expect_2:
+      - 暂无数据
+AppManageData:
+  app:
+    expect_1:
+      - 暂数据
+    expect_2:
+      - 删除成功
+  create_app:
+    app_name: UIApp1000
+    expect:
+      - 创建应用不成功
+  delete_app_expect:
+    expect_1:
+      - 暂数据
+    expect_2:
+      - 删除成功
+  delete_app_expect_1:
+    expect_1:
+      - 暂数据
+    expect_2:
+      - 删除成功
+ServiceManage:
+  create_service:
+    expect_1:
+      - 创建服务成功
+    expect_2:
+      - 创建实例
+      - 查看实例
+      - 删除
+    service_name: UIService0413151445
+  delete_service:
+    expect_1:
+      - 删除成功
+    expect_2:
+      - 暂无数据
+    service_name: Tarsnelsonjames
+User:
+  create_user:
+    - description: 这是UI自动化运行前生成的数据
+      email: fangyin@yahoo.com
+      name: TarsMichaelChavez
+      phone: '15914885456'
+      user: TarsMichaelChavez
+    - description: 这是UI自动化运行前生成的数据
+      email: rxiang@hotmail.com
+      name: TarsMichaelChavez
+      phone: '13078620680'
+      user: TarsMichaelChavez
+
