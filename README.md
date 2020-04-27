@@ -5,6 +5,7 @@
 pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com -r requirements.txt
 python run_local.py
 ```
+## 真实数据地址已被替换，项目无法运行，仅提供参考思路
 
 每个Case可独立运行，case运行前先将参数化需要用到的动态数据生成保存至yaml文件,case运行前数据从yaml文件中加载读取，解决使用pytest-xdist
 进行多进程同时运行时各个进程加载到的数据不一致导致多进程运行失败的问题。前置依赖数据使用接口进行生成
